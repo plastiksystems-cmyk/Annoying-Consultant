@@ -1,0 +1,2 @@
+g++ -shared -o consult64.dll -Iheaders core/basicrand.cpp core/character.cpp core/petrulici.cpp
+g++ debug/main.cpp -Iheaders -L. -lconsult64 -o consultant.exe
