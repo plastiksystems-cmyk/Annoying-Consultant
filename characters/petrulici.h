@@ -1,7 +1,9 @@
-#include "petrulici.h"
+#pragma once
 
-namespace consultant {
-    dialog_map petermap = {
+#include "cscharacter.h"
+
+namespace cs {
+    inline DLL_EXPORT dialog_map pdialog = {
         "i love c++ very cool language and i will not accept any other opinions",
         "railroads players began sneezing when they heard about getting a brain",
         "auxstar media will come to ur house, if u dont do what we want, AND WE WILL EXPOSE YOU!",
@@ -25,5 +27,5 @@ namespace consultant {
         "why is mityafetishovidiot still in the game"
     };
 
-    character petrulici{"Petrulici", petermap};
+    inline DLL_EXPORT character petrulici{"Petrulici", pdialog, 1};
 }
