@@ -1,7 +1,10 @@
 #include "cscharacter.h"
 
 namespace cs {
+    static std::mutex chandle;
+
     void character::talk(const std::string& message) {
+        std::lock_guard<std::mutex> lock{chandle};
         std::printf("%s: %s\n", name.c_str(), message.c_str());
     }
 

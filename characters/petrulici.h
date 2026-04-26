@@ -3,7 +3,7 @@
 #include "cscharacter.h"
 
 namespace cs {
-    inline DLL_EXPORT dialog_map pdialog = {
+    inline DLL_EXPORT character petrulici{"Petrulici", 1, {
         "i love c++ very cool language and i will not accept any other opinions",
         "railroads players began sneezing when they heard about getting a brain",
         "auxstar media will come to ur house, if u dont do what we want, AND WE WILL EXPOSE YOU!",
@@ -25,7 +25,5 @@ namespace cs {
         "next time you see richard hammond block him",
         "when is zaith getting banned from railroads",
         "why is mityafetishovidiot still in the game"
-    };
-
-    inline DLL_EXPORT character petrulici{"Petrulici", pdialog, 1};
+    }};
 }

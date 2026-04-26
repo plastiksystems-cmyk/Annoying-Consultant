@@ -7,6 +7,7 @@
 
 #include <thread>
 #include <chrono>
+#include <mutex>
 
 #include "cswindows.h"
 #include "csmath.h"
@@ -24,7 +25,7 @@ namespace cs {
         std::string name;
         int talkspeed;
 
-        character(const std::string& na, const dialog_map& di, int ta) : uniqueid(cindex++), name(na), dialogue(di), talkspeed(ta) {}
+        character(const std::string& na, double ta, const dialog_map& di) : uniqueid(cindex++), name(na), dialogue(di), talkspeed(ta) {}
 
         void talk(const std::string& m);
         void talkloop(int w);
