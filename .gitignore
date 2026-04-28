@@ -1,3 +1,4 @@
 .vscode
 ignore
 headers/csio.h
+build
