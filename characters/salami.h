@@ -3,7 +3,7 @@
 #include "cscharacter.h"
 
 namespace cs {
-    inline DLL_EXPORT character salami{"salami", 1.5, {
+    inline character salami{"salami", 1.5, {
         "ai",
         "copilot",
         "i must vibecode html and css",

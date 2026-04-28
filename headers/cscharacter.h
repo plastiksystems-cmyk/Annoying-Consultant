@@ -9,7 +9,6 @@
 #include <chrono>
 #include <mutex>
 
-#include "cswindows.h"
 #include "csmath.h"
 
 namespace cs {
@@ -17,7 +16,7 @@ namespace cs {
 
     using dialog_map = std::vector<std::string>;
 
-    class DLL_EXPORT character {
+    class character {
     private:
         const int uniqueid;
         const dialog_map dialogue;

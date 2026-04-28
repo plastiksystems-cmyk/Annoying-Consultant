@@ -3,7 +3,7 @@
 #include "cscharacter.h"
 
 namespace cs {
-    inline DLL_EXPORT character petrulici{"Petrulici", 1, {
+    inline character petrulici{"Petrulici", 1, {
         "i love c++ very cool language and i will not accept any other opinions",
         "railroads players began sneezing when they heard about getting a brain",
         "auxstar media will come to ur house, if u dont do what we want, AND WE WILL EXPOSE YOU!",

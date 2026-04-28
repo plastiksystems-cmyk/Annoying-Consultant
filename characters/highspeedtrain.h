@@ -3,7 +3,7 @@
 #include "cscharacter.h"
 
 namespace cs {
-    inline DLL_EXPORT character highspeedtrain{"highspeedtrain", 1.5, {
+    inline character highspeedtrain{"highspeedtrain", 1.5, {
         "python",
         "godot",
         "it is hard to argue with a smart person, but impossible to argue with an idiot",
